@@ -1,6 +1,33 @@
 body {
     font-family: "Comic Sans MS";
-    background-image: url("../images/logo1024.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    }
+    background-image: url("../images/logofinal.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+   }
+ul {
+  list-style: none;
+  margin: 0 0px;
+  display: flex;
+  justify-content: space-around;
+  
+ 
+}
+
+li {
+    border: 5px solid black;
+    background-color: white;
+}
+
+li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight:900;
+}
+
+li a:hover {
+  background-color: black;
+}
