@@ -2,6 +2,4 @@ body {
     font-family: "Comic Sans MS";
     background-image: url("/images/logo.jpg");
     background-repeat: repeat-x;
-    background-repeat: repeat-y;
-    background-size: 100% 100%;
-}
+    }
