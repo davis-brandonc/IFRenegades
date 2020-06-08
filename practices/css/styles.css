@@ -53,13 +53,14 @@ nav li a:hover {
   padding-left: 4rem;
   padding-top: 0rem;
   Font-size: 15px;
+  color: red;
 
 }
 
 p {
     margin: 0rem;
     padding: 0rem;
-    color: black;
+    color: red;
     font-weight: 900;
     font-size: 17.5px;
 }
