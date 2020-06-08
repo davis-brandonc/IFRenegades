@@ -77,6 +77,21 @@ nav li a:hover {
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .video1 {
+   width: auto ;
+  max-width: 100% ;
+  height: auto;
+  float: left;
+  text-align: center;
+  }
+}
+
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
 
 .column {
   width: auto ;
