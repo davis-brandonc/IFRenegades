@@ -44,3 +44,17 @@ img[alt*="counter free"] {
   width: 150px;
   border: 3px solid #73AD21;
 }
+
+.facebook {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+}
+
+.counter {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
