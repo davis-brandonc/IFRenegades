@@ -1,0 +1,98 @@
+body {
+    font-family: "Comic Sans MS";
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../Images/logofinal.jpg");
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+H1 {
+    color: firebrick;
+    align-content: center;
+    text-align: center;
+    font-size: 45xpx;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: .5rem;
+  
+ 
+}
+
+nav li {
+    border: 5px solid black;
+    background-color: white;
+}
+
+nav li a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight:900;
+}
+
+nav li a:hover {
+  background-color: black;
+}
+
+.column {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding-left: 4rem;
+  padding-top: 3rem;
+  Font-size: 15px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .video1 {
+    width: 100%;
+  }
+}
+
+.facebook {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+}
+
+.counter {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
