@@ -51,6 +51,7 @@ nav li a:hover {
 
 .song {
      margin: 4rem;
+    padding-top: 1rem;
 }
 
 img {
@@ -58,7 +59,7 @@ img {
 }
 
 .teamname {
-    font-size: 75px;
+    font-size: 85px;
     color: darkred;
     text-align: center;
 }
