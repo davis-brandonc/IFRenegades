@@ -1,3 +1,12 @@
+@media screen and (max-width: 600px) {
+  .teamname {
+    width: 100%;
+     }
+    .pictures {
+    width: 100%;
+     }
+}
+
 body {
     font-family: "Comic Sans MS";
     width: 100vw;
@@ -42,15 +51,6 @@ nav li a:hover {
     padding: 1rem;
 }
 
-nav select {
-  display: none;
-}
-
-@media (max-width: 960px) {
-  nav ul     { display: none; }
-  nav select { display: inline-block; }
-}
-
 .counter {
     position: fixed;
     bottom: 0;
@@ -58,14 +58,10 @@ nav select {
     padding: 1rem;
 }
 
-.team {
+.pictures {
     display: flex;
     justify-content: space-around;
    }
-
-.song {
-    float: right;
-}
 
 .teamname {
     font-size: 85px;
