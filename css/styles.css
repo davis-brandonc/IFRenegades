@@ -5,6 +5,19 @@
     .pictures {
     width: 100%;
      }
+    .gamechanger {
+    width: 100%;
+    }
+        body {
+    font-family: "Comic Sans MS";
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/logofinal.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+      margin: 0px;
+    padding: 0px;
+   }
 }
 
 body {
@@ -17,6 +30,7 @@ body {
       margin: 0px;
     padding: 0px;
    }
+
 nav ul {
   list-style: none;
   margin: 0px;
