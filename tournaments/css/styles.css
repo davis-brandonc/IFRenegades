@@ -61,7 +61,7 @@ p {
     padding: 0rem;
     color: black;
     font-weight: 900;
-    font-size: 17.5px;
+    font-size: 16px;
 }
 /* Clear floats after the columns */
 
@@ -73,14 +73,14 @@ p {
 }
 
 .facebook {
-    position:absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
     padding: 1rem;
 }
 
 .counter {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     padding: 1rem;
