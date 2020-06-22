@@ -51,7 +51,7 @@ nav li a:hover {
 
 .team {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
    }
 
 .song {
