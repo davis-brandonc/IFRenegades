@@ -12,7 +12,7 @@ body {
     background-image: url("../images/logofinal.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-      margin: 0px;
+    margin: 0px;
     padding: 0px;
    }
 
@@ -60,6 +60,7 @@ nav li a:hover {
 .pictures {
     display: flex;
     justify-content: space-around;
+    margin: 0px;
    }
 
 .teamname {
@@ -67,6 +68,7 @@ nav li a:hover {
     color: darkred;
     text-align: center;
     padding: 0px;
+    margin:  0px;
     }
 
 .gamechanger {
