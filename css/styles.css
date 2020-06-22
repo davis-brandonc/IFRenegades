@@ -49,10 +49,10 @@ nav li a:hover {
     padding: 1rem;
 }
 
-
-
-img {
-     margin: 4rem;
+.team {
+    display: flex;
+    justify-content: space-around;
+ 
 }
 
 .song {
