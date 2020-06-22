@@ -49,6 +49,13 @@ nav li a:hover {
     padding: 1rem;
 }
 
+.gamechanger {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
+
 .song {
      margin: 4rem;
 }
