@@ -1,27 +1,9 @@
-@media screen and (max-width: 600px) {
-  .teamname {
-    width: 100%;
-     }
-    .pictures {
-    width: 100%;
-     }
-    .gamechanger {
-    width: 100%;
-    }
-        body {
-    font-family: "Comic Sans MS";
-    width: 100vw;
-    height: 100vh;
-    background-image: url("../images/logofinal.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-      margin: 0px;
-    padding: 0px;
-   }
-      nav {
-    width: 100%;
-     }
-}
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
     font-family: "Comic Sans MS";
