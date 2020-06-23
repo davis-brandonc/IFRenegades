@@ -75,7 +75,8 @@ p {
     padding-left: 3rem;
     }
     body {
-    background-image: url("../Images/IMG_7063A.jpg");
+    background-image: url("../Images/baseball.jpg");
+    background-repeat: repeat;
    }
     nav{
         width: 100%;
