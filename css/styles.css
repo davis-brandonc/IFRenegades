@@ -110,6 +110,13 @@ nav li a:hover {
     align-content: center;
     }
 
+.invite {
+   position: fixed;
+    bottom: 0;
+    left: 15rem;
+    padding: 1rem;
+}
+
 .teamname {
     font-size: 80px;
     text-align: center;
