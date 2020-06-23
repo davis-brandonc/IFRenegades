@@ -2,7 +2,7 @@ body {
     font-family: "Comic Sans MS";
     width: 100vw;
     height: 100vh;
-    background-image: url("../Images/IMG_7063.webp");
+    background-image: url("../Images/IMG_7063A.jpg");
     background-repeat: repeat;
     background-size: 100% 100%;
     margin: 0px;
@@ -14,6 +14,7 @@ nav ul {
   display: flex;
   justify-content: space-around;
   padding-top: .5rem;
+  flex-flow: row wrap;
   
  
 }
@@ -38,8 +39,10 @@ nav li a:hover {
 }
 
 
-.row {
-  display: flex;
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 * {
@@ -50,11 +53,9 @@ nav li a:hover {
 .column {
   float: left;
   width: 33.33%;
-  padding-left: 4rem;
-  padding-top: 0rem;
-  Font-size: 15px;
-
-}
+    padding-left: 4rem;
+  
+ }
 
 p {
     margin: 0rem;
@@ -66,10 +67,29 @@ p {
 /* Clear floats after the columns */
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1325px) {
   .column {
     width: 100%;
-  }
+    align-content: center;
+      padding-right: 3rem;
+    padding-left: 3rem;
+    }
+    body {
+    background-image: url("../Images/IMG_7063A.jpg");
+   }
+    nav{
+        width: 100%;
+    }
+    
+    nav ul {
+        width: 100%;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        
+    }
+    nav li {
+        width: 100%;
+         }
 }
 
 .facebook {
