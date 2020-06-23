@@ -76,6 +76,7 @@ nav li a:hover {
   .column {
     width: 100%;
     align-content: center;
+      padding-right: 3rem;
     
     }
     body {
@@ -87,7 +88,7 @@ nav li a:hover {
     
     nav ul {
         width: 100%;
-        padding-right: 4rem;
+        padding-right: 3rem;
     }
     nav li {
         width: 100%;
