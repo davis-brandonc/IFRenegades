@@ -22,7 +22,7 @@ nav ul {
   display: flex;
   justify-content: space-around;
   padding-top: .5rem;
-   flex-flow: row wrap;
+  flex-flow: row wrap;
   
  
 }
@@ -72,7 +72,7 @@ nav li a:hover {
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 700px) {
   .column {
     width: 100%;
     align-content: center;
@@ -87,10 +87,33 @@ nav li a:hover {
     
     nav ul {
         width: 100%;
+        padding-right: 3rem;
     }
     nav li {
         width: 100%;
+         }
+}
+
+@media screen and (min-width: 701px max-width: 1000px) {
+  .column {
+    width: 33%;
+    align-content: center;
+    
     }
+    body {
+    background-image: url("../Images/logofinal.jpg");
+   }
+    nav{
+        width: 100%;
+    }
+    
+    nav ul {
+        width: 100%;
+        padding-right: 3rem;
+    }
+    nav li {
+        width: 100%;
+         }
 }
 .facebook {
    
