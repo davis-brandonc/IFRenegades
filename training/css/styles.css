@@ -76,7 +76,8 @@ nav li a:hover {
   .column {
     width: 100%;
     align-content: center;
-         
+      padding-right: 3rem;
+    padding-left: 3rem;
     }
     body {
     background-image: url("../Images/logofinal.jpg");
