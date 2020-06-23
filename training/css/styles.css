@@ -88,6 +88,8 @@ nav li a:hover {
     
     nav ul {
         width: 100%;
+        padding-left: 3rem;
+        padding-right: 3rem;
         
     }
     nav li {
