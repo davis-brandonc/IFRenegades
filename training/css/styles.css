@@ -94,12 +94,10 @@ nav li a:hover {
          }
 }
 
-@media screen and (min-width: 701px max-width: 1000px) {
+@media screen and (min-width: 701px, max-width: 1000px) {
   .column {
     width: 50%;
-    align-content: center;
-    
-    }
+        }
     body {
     background-image: url("../Images/logofinal.jpg");
    }
