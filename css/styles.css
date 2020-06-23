@@ -85,6 +85,9 @@ nav li a:hover {
     nav li {
         width: 100%;
          }
+    .teamname {
+        font-size: 60px;
+    }
 }
 
 
