@@ -71,11 +71,7 @@ nav li a:hover {
       padding-right: 3rem;
     padding-left: 3rem;
     }
-    body {
-    background-image: url("../Images/logo.jpg");
-        background-repeat: repeat;
-   }
-    
+      
     nav{
         width: 100%;
     }
