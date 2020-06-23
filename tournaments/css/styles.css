@@ -60,7 +60,7 @@ nav li a:hover {
 p {
     margin: 0rem;
     padding: 0rem;
-    color: red;
+    color: white;
     font-weight: 900;
     font-size: 20px;
 }
@@ -91,6 +91,10 @@ p {
     nav li {
         width: 100%;
          }
+    
+    p {
+        color: red;
+    }
 }
 
 .facebook {
